@@ -7,11 +7,24 @@
 #include "Blueprint/UserWidget.h"
 #include "TowerHUDBase.generated.h"
 
-UENUM()
+UENUM(BLueprintType)
 enum class EUILayout : uint8
 {
 	/** Bottom layer, for now. */
 	HUD	,
+
+	/** Where the main UI should go */
+	Game,
+
+	/** Use wheel collision shape to determine suspension length to ground - Slowest */
+	Notification
+};
+
+UENUM(BLueprintType)
+enum class EUILayer : uint8
+{
+	/** Bottom layer, for now. */
+	HUD,
 
 	/** Where the main UI should go */
 	Game,
