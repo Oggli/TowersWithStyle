@@ -4,12 +4,8 @@ Intermediate
 .vsconfig
 Backup
 UpgradeLog.htm
-TowersWithStyle.sln
 Binaries
 *.sln
 *.pdb
 *.dll
-TowersWithStyle.sln
-Content/TopDown/Blueprints/BP_TopDownGameMode.uasset
-Content/TopDown/Blueprints/BP_TopDownCharacter.uasset
-Binaries/Win64/UnrealEditor-TowersWithStyle.pdb
+
