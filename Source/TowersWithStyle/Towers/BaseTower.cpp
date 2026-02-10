@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Towers/BaseTower.h"
+#include "BaseTower.h"
 
 // Sets default values
 ABaseTower::ABaseTower()

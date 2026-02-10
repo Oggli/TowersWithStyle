@@ -4,5 +4,8 @@ Intermediate
 .vsconfig
 Backup
 UpgradeLog.htm
-TowersWithStyle.sln
 Binaries
+*.sln
+*.pdb
+*.dll
+

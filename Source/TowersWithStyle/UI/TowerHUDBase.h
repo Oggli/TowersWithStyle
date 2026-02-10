@@ -4,21 +4,33 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
+#include "Blueprint/UserWidget.h"
 #include "TowerHUDBase.generated.h"
 
-class UUserWidget;
-
-UENUM()
+UENUM(BLueprintType)
 enum class EUILayout : uint8
 {
 	/** Bottom layer, for now. */
-	Raycast		UMETA(DisplayName = "Raycast"),
+	HUD	,
 
 	/** Where the main UI should go */
-	Spherecast	UMETA(DisplayName = "Spherecast"),
+	Game,
 
 	/** Use wheel collision shape to determine suspension length to ground - Slowest */
-	Shapecast	UMETA(DisplayName = "Shapecast")
+	Notification
+};
+
+UENUM(BLueprintType)
+enum class EUILayer : uint8
+{
+	/** Bottom layer, for now. */
+	HUD,
+
+	/** Where the main UI should go */
+	Game,
+
+	/** Use wheel collision shape to determine suspension length to ground - Slowest */
+	Notification
 };
 
 /**
@@ -34,27 +46,27 @@ public:
 
 protected:
 	UPROPERTY()
-	UUserWidget* UILayout;
+	UUILayoutWidgetBase* UILayout;
 
 	UPROPERTY()
-	UUserWidget* HUDWidget;
+	UHUDWidgetBase* HUDWidget;
 };
 
 /**
  *
  */
 UCLASS()
-class TOWERSWITHSTYLE_API ATowerHUDBase : public AHUD
+class TOWERSWITHSTYLE_API UHUDWidgetBase : public UUserWidget
 {
 	GENERATED_BODY()
-
-public:
-	virtual void ShowHUD() override;
-
-protected:
-	UPROPERTY()
-	UUserWidget* UILayout;
-
-	UPROPERTY()
-	UUserWidget* HUDWidget;
 };
+
+/**
+ *
+ */
+UCLASS()
+class TOWERSWITHSTYLE_API UUILayoutWidgetBase : public UUserWidget
+{
+	GENERATED_BODY()
+};
+
