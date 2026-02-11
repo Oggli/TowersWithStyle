@@ -3,7 +3,12 @@
   "WorkspaceRootPath": "G:\\TowersWithStyle\\TowersWithStyle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\UE\\UE_5.7\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Source\\TowersWithStyle\\UI\\TowerHUDBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EnhancedInputSubsystems.h",
-              "DocumentMoniker": "G:\\UE\\UE_5.7\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h",
-              "RelativeDocumentMoniker": "..\\..\\UE\\UE_5.7\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h",
-              "ToolTip": "G:\\UE\\UE_5.7\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h",
-              "RelativeToolTip": "..\\..\\UE\\UE_5.7\\Engine\\Plugins\\EnhancedInput\\Source\\EnhancedInput\\Public\\EnhancedInputSubsystems.h",
+              "Title": "TowerHUDBase.cpp",
+              "DocumentMoniker": "G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp",
+              "RelativeDocumentMoniker": "Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp",
+              "ToolTip": "G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp",
+              "RelativeToolTip": "Source\\TowersWithStyle\\UI\\TowerHUDBase.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-11T00:09:16.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TowerHUDBase.h",
+              "DocumentMoniker": "G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.h",
+              "RelativeDocumentMoniker": "Source\\TowersWithStyle\\UI\\TowerHUDBase.h",
+              "ToolTip": "G:\\TowersWithStyle\\TowersWithStyle\\Source\\TowersWithStyle\\UI\\TowerHUDBase.h",
+              "RelativeToolTip": "Source\\TowersWithStyle\\UI\\TowerHUDBase.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-09T21:00:43.315Z",
+              "WhenOpened": "2026-02-11T00:09:15.625Z",
               "EditorCaption": ""
             }
           ]
