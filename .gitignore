@@ -2,6 +2,10 @@ Saved
 Intermediate
 .vs
 .vsconfig
-Binaries
 Backup
 UpgradeLog.htm
+Binaries
+*.sln
+*.pdb
+*.dll
+
