@@ -8,6 +8,7 @@ public class TowersWithStyle : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
+<<<<<<< HEAD
 		PublicDependencyModuleNames.AddRange(new string[] { 
 			"Core", 
 			"CoreUObject", 
@@ -16,6 +17,9 @@ public class TowersWithStyle : ModuleRules
 			"UMG",
 			"Slate",
 			"SlateCore" });
+=======
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "EnhancedInput", "AIModule", "NavigationSystem" });
+>>>>>>> 93b1e458bf8d113abf94c7e10fb230b9e69194b7
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
